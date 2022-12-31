@@ -153,7 +153,7 @@ function warnUser(): void {
 
 ```
 
-声明一个 `void` 类型的变量没有什么大用，因为你只能为它赋予 `undefined` 和 `null`：
+声明一个 `void` 类型的变量没有什么大用，因为你只能为它赋予 `undefined`：
 
 ```typescript
 let unusable: void = undefined
